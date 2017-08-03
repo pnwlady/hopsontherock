@@ -19,7 +19,7 @@ hr {
 }
 
 hr.light {
-    border-color: white;
+    border-color: pink;
 }
 
 a {
@@ -52,11 +52,11 @@ p {
 
 .bg-dark {
     background-color: @gray-darker;
-    color: white;
+    color: pink;
 }
 
 .text-faded {
-    color: fade(white, 70%);
+    color: fade(pink, 70%);
 }
 
 section {
@@ -74,7 +74,7 @@ aside {
 // Navigation
 
 .navbar-default {
-    background-color: white;
+    background-color: green;
     border-color: fade(@gray-darker, 5%);
     .sans-serif-font;
     .transition-all;
@@ -120,23 +120,23 @@ aside {
     }
     @media (min-width: 768px) {
         background-color: transparent;
-        border-color: fade(white, 30%);
+        border-color: fade(pink, 30%);
         .navbar-header .navbar-brand {
-            color: fade(white, 70%);
+            color: fade(pink, 70%);
             &:hover,
             &:focus {
-                color: white;
+                color: pink;
             }
         }
         .nav > li > a,
         .nav > li > a:focus {
-            color: fade(white, 70%);
+            color: fade(pink, 70%);
             &:hover {
-                color: white;
+                color: pink;
             }
         }
         &.affix {
-            background-color: white;
+            background-color: pink;
             border-color: fade(@gray-darker, 5%);
             .navbar-header .navbar-brand {
                 color: @theme-primary;
@@ -167,7 +167,7 @@ header {
     background-position: center;
     background-image: url('../img/header.jpg');
     text-align: center;
-    color: white;
+    color: pink;
     .header-content {
         position: relative;
         text-align: center;
@@ -186,7 +186,7 @@ header {
             }
             p {
                 font-weight: 300;
-                color: fade(white, 70%);
+                color: fade(blue, 70%);
                 font-size: 16px;
                 margin-bottom: 50px;
             }
@@ -242,7 +242,7 @@ header {
     max-width: 650px;
     margin: 0 auto;
     .portfolio-box-caption {
-        color: white;
+        color: pink;
         opacity: 0;
         display: block;
         background: fade(@theme-primary, 90%);
@@ -313,11 +313,11 @@ header {
 
 // Button Styles
 .btn-default {
-    .button-variant(@gray-darker;white;white);
+    .button-variant(@gray-darker;pink;pink);
 }
 
 .btn-primary {
-    .button-variant(white;@theme-primary;@theme-primary);
+    .button-variant(pink;@theme-primary;@theme-primary);
 }
 
 .btn {
@@ -335,27 +335,32 @@ header {
 // Extras
 // -- Highlight Color Customization
 ::-moz-selection {
-    color: white;
+    color: pink;
     text-shadow: none;
     background: @gray-darker;
 }
 
 ::selection {
-    color: white;
+    color: pink;
     text-shadow: none;
     background: @gray-darker;
 }
 
 img::selection {
-    color: white;
+    color: pink;
     background: transparent;
 }
 
 img::-moz-selection {
-    color: white;
+    color: pink;
     background: transparent;
 }
 
 body {
     webkit-tap-highlight-color: @gray-darker;
+}
+.well {
+   background-color: rgba(245, 245, 245, 0.4);
+   border: none !important;
+   width: 50%;
 }
