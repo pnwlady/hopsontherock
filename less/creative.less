@@ -19,7 +19,7 @@ hr {
 }
 
 hr.light {
-    border-color: #309C1F;
+    border-color: #3590F2;
 }
 
 a {
@@ -52,11 +52,11 @@ p {
 
 .bg-dark {
     background-color: @gray-darker;
-    color: #309C1F;
+    color: #3590F2;
 }
 
 .text-faded {
-    color: fade(#309C1F, 70%);
+    color: fade(#3590F2, 70%);
 }
 
 section {
@@ -120,23 +120,23 @@ aside {
     }
     @media (min-width: 768px) {
         background-color: transparent;
-        border-color: fade(#309C1F, 30%);
+        border-color: fade(#3590F2, 30%);
         .navbar-header .navbar-brand {
-            color: fade(#309C1F, 70%);
+            color: fade(#3590F2, 70%);
             &:hover,
             &:focus {
-                color: #309C1F;
+                color: #3590F2;
             }
         }
         .nav > li > a,
         .nav > li > a:focus {
-            color: fade(#309C1F, 70%);
+            color: fade(#3590F2, 70%);
             &:hover {
-                color: #309C1F;
+                color: #3590F2;
             }
         }
         &.affix {
-            background-color: #309C1F;
+            background-color: #3590F2;
             border-color: fade(@gray-darker, 5%);
             .navbar-header .navbar-brand {
                 color: @theme-primary;
@@ -165,9 +165,10 @@ header {
     min-height: auto;
     .background-cover;
     background-position: center;
-    background-image: url('../img/header.jpg');
+    //background-image: url('../img/header.jpg');
+    background-color: #FFC300;
     text-align: center;
-    color: #309C1F;
+    color: #3590F2;
     .header-content {
         position: relative;
         text-align: center;
@@ -242,7 +243,7 @@ header {
     max-width: 650px;
     margin: 0 auto;
     .portfolio-box-caption {
-        color: #309C1F;
+        color: #3590F2;
         opacity: 0;
         display: block;
         background: fade(@theme-primary, 90%);
@@ -313,11 +314,11 @@ header {
 
 // Button Styles
 .btn-default {
-    .button-variant(@gray-darker;#309C1F;#309C1F);
+    .button-variant(@gray-darker;#3590F2;#3590F2);
 }
 
 .btn-primary {
-    .button-variant(#309C1F;@theme-primary;@theme-primary);
+    .button-variant(#3590F2;@theme-primary;@theme-primary);
 }
 
 .btn {
@@ -335,24 +336,24 @@ header {
 // Extras
 // -- Highlight Color Customization
 ::-moz-selection {
-    color: #309C1F;
+    color: #3590F2;
     text-shadow: none;
     background: @gray-darker;
 }
 
 ::selection {
-    color: #309C1F;
+    color: #3590F2;
     text-shadow: none;
     background: @gray-darker;
 }
 
 img::selection {
-    color: #309C1F;
+    color: #3590F2;
     background: transparent;
 }
 
 img::-moz-selection {
-    color: #309C1F;
+    color: #3590F2;
     background: transparent;
 }
 
