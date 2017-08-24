@@ -1,6 +1,22 @@
 @import "variables.less";
 @import "mixins.less";
 
+.small {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+}
+.square {
+  background-position: center;
+  border-radius: 4%;
+  background-repeat: no-repeat;
+  background-image: url('../img/logoColor.png');
+  background-size: contain;
+  width: 400px;
+  height: 400px;
+
+}
+
 // Global Components
 html,
 body {
@@ -164,11 +180,6 @@ header {
     width: 100%;
     min-height: auto;
     .background-cover;
-    .square {
-      background-position: center;
-      background-image: url('../img/logoColor.png');
-      background-size: auto;
-    }
     background-position: center;
     background-color: #FFC300;
     text-align: center;
