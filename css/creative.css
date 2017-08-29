@@ -10,12 +10,12 @@
 }
 .square {
   background-position: center;
-  border-radius: 4%;
+  border-radius: 8%;
   background-repeat: no-repeat;
   background-image: url('../img/logoColor.png');
   background-size: contain;
-  width: 400px;
-  height: 400px;
+  width: 50% auto;
+  height: 50% auto;
 }
 html,
 body {
