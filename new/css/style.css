@@ -1,0 +1,10 @@
+.square {
+  background-position: center;
+  border-radius: 8%;
+  background-repeat: no-repeat;
+  background-image: url('../img/logoColor.png');
+  background-size: contain;
+  width: 50% auto;
+  height: 50% auto;
+
+}
