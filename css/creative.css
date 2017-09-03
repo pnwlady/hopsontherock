@@ -3,6 +3,12 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+.bsimage {
+  background-image: url('/img/header.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 200px;
+}
 .small {
   width: 40px;
   height: 40px;
