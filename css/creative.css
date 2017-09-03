@@ -3,25 +3,16 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
-.bsimage {
-  background-image: url('/img/header.jpg');
+.bgimg {
+  background-image: url('../img/header.jpg');
   background-position: center center;
   background-size: cover;
-  height: 200px;
+  height: 620px;
 }
 .small {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-}
-.square {
-  background-position: center;
-  border-radius: 8%;
-  background-repeat: no-repeat;
-  background-image: url('../img/logoColor.png');
-  background-size: contain;
-  width: 50% auto;
-  height: 50% auto;
 }
 html,
 body {
@@ -189,7 +180,7 @@ header .header-content {
 header .header-content .header-content-inner h1 {
   font-weight: 700;
   text-transform: uppercase;
-  margin-top: 0;
+  margin-top: 120px;
   margin-bottom: 0;
   font-size: 30px;
 }
@@ -200,6 +191,8 @@ header .header-content .header-content-inner p {
   font-weight: 300;
   color: rgba(0, 0, 255, 0.7);
   font-size: 16px;
+  width: auto;
+  margin-top: 140px;
   margin-bottom: 50px;
 }
 @media (min-width: 768px) {
