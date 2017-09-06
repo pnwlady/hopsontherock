@@ -4,15 +4,24 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 .bgimg {
-  background-image: url('../img/header.jpg');
+  background-image: url('../img/lighthousemed.jpg');
   background-position: center center;
   background-size: cover;
   height: 620px;
+}
+.center {
+  vertical-align: middle;
+}
+.logoSm {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
 }
 .small {
   width: 40px;
   height: 40px;
   border-radius: 4px;
+  position: fixed;
 }
 html,
 body {
@@ -61,7 +70,7 @@ p {
   color: #3590F2;
 }
 .text-faded {
-  color: rgba(53, 144, 242, 0.7);
+  color: rgba(255, 195, 0, 0.7);
 }
 section {
   padding: 100px 0;
