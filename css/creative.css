@@ -4,7 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 .bgimg {
-  background-image: url('../img/bluesky.jpg');
+  background-image: url('../img/growlerferry.jpg');
   background-position: center center;
   background-size: cover;
   height: 100%;
@@ -203,11 +203,6 @@ header .header-content .header-content-inner p {
   width: auto;
   margin-top: 140px;
   margin-bottom: 50px;
-}
-@media (max-width: 1200px) {
-  header {
-    max-height: 80%;
-  }
 }
 @media (min-width: 768px) {
   header {
