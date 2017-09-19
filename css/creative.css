@@ -9,6 +9,18 @@
   background-size: cover;
   height: 100%;
 }
+.bgimg2 {
+  background-image: url('../img/header.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+}
+.bgimg3 {
+  background-image: url('../img/landlg.JPG');
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+}
 .logoSm {
   margin: 0 auto;
   margin-top: 9%;
@@ -228,6 +240,16 @@ header .header-content .header-content-inner p {
     margin-left: auto;
     margin-right: auto;
   }
+}
+.hopsHead {
+  vertical-align: middle !important;
+  padding-top: 20%;
+  font-size: 70px;
+}
+.logistics {
+  text-align: center;
+  top: 20px;
+  bottom: 400px;
 }
 .section-heading {
   margin-top: 0;
