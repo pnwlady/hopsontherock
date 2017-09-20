@@ -10,7 +10,7 @@
   height: 100%;
 }
 .bgimg2 {
-  background-image: url('../img/header.jpg');
+  background-image: url('../img/growlerferry.jpg');
   background-position: center center;
   background-size: cover;
   height: 100%;
@@ -24,7 +24,8 @@
 .logoSm {
   margin: 0 auto;
   margin-top: 9%;
-  max-width: 100%;
+  size: 40%;
+  max-width: 60%;
   height: auto;
 }
 .small {
@@ -76,6 +77,9 @@ p {
 .bg-dark {
   background-color: #222222;
   color: #3590F2;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 .text-faded {
   color: rgba(239, 191, 35, 0.8);
