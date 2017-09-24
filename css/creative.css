@@ -255,6 +255,15 @@ header .header-content .header-content-inner p {
   top: 20px;
   bottom: 400px;
 }
+.sponsors {
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 20px;
+  align-items: center;
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
 .section-heading {
   margin-top: 0;
 }
