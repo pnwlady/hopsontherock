@@ -81,6 +81,9 @@ p {
   padding-top: 20px;
   padding-bottom: 40px;
 }
+.pHome {
+  font-size: 16px;
+}
 .text-faded {
   color: rgba(239, 191, 35, 0.8);
 }
