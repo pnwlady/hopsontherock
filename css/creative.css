@@ -67,7 +67,7 @@ h6 {
   font-family: 'BebasNeue Bold', sans-serif;
 }
 p {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.5;
   margin-bottom: 20px;
 }
@@ -82,7 +82,7 @@ p {
   padding-bottom: 40px;
 }
 .pHome {
-  font-size: 16px;
+  font-size: 40px !important;
 }
 .text-faded {
   color: rgba(239, 191, 35, 0.8);
@@ -216,7 +216,7 @@ header .header-content .header-content-inner hr {
 header .header-content .header-content-inner p {
   font-weight: 300;
   color: rgba(0, 0, 255, 0.7);
-  font-size: 16px;
+  font-size: 20px;
   width: auto;
   margin-top: 140px;
   margin-bottom: 50px;
@@ -259,19 +259,29 @@ header .header-content .header-content-inner p {
   bottom: 400px;
 }
 .sponsors {
-  text-align: center;
-  padding-bottom: 40px;
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
   align-items: center;
   display: inline-block;
   vertical-align: middle;
   float: none;
 }
+.padding1 {
+  padding-left: 90px;
+  padding-bottom: 50px;
+  padding-top: 40px;
+}
+.padding2 {
+  padding-left: 150px;
+  padding-bottom: 50px;
+  padding-right: 40px;
+  border: 20px;
+}
+.buffer {
+  border-left: 50px;
+  border-right: 50px;
+}
 .centered {
   margin: auto;
-  max-width: 700px;
+  max-width: 900px;
 }
 .section-heading {
   margin-top: 0;
