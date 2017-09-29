@@ -24,7 +24,6 @@
 .logoSm {
   margin: 0 auto;
   margin-top: 9%;
-  size: 40%;
   max-width: 60%;
   height: auto;
 }
@@ -257,8 +256,6 @@ header .header-content .header-content-inner p {
   text-align: center;
   top: 20px;
   bottom: 400px;
-  padding-left: 150px;
-  padding-right: 150px;
 }
 .sponsors {
   align-items: center;
