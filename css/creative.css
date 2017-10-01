@@ -37,7 +37,7 @@ html,
 body {
   height: 100%;
   width: 100%;
-  font-family: 'Gotham-Bold', sans-serif;
+  font-family: 'JosefinSans-Regular', serif;
 }
 hr {
   border-color: #1E83C3;
@@ -57,18 +57,30 @@ a:hover,
 a:focus {
   color: #176597;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
+h1 {
+  font-size: 40px;
+  font-family: 'Josefin Slab', serif;
+}
+h2 {
+  font-family: 'Josefin Slab', serif;
+}
+h3 {
+  font-family: 'GothamBookRegular', sans-serif;
+}
+h4 {
+  font-family: 'JosefinSans-Regular', serif;
+}
+h5 {
+  font-family: 'JosefinSans-Regular', serif;
+}
 h6 {
-  font-family: 'BebasNeue Bold', sans-serif;
+  font-family: 'JosefinSans-Regular', serif;
 }
 p {
   font-size: 20px;
   line-height: 1.5;
   margin-bottom: 20px;
+  font-family: 'JosefinSans-Regular', serif;
 }
 .bg-primary {
   background-color: #1E83C3;
@@ -79,9 +91,6 @@ p {
   width: 100%;
   padding-top: 20px;
   padding-bottom: 40px;
-}
-.pHome {
-  font-size: 40px !important;
 }
 .text-faded {
   color: rgba(239, 191, 35, 0.8);
@@ -99,14 +108,14 @@ aside {
   background-color: #FFC300;
   opacity: .90;
   border-color: rgba(34, 34, 34, 0.05);
-  font-family: 'Gotham-Bold', sans-serif;
+  font-family: 'BebasNeue Bold', sans-serif;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
 }
 .navbar-default .navbar-header .navbar-brand {
   color: #1E83C3;
-  font-family: 'Gotham-Bold', sans-serif;
+  font-family: 'BebasNeue Bold', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -251,6 +260,7 @@ header .header-content .header-content-inner p {
   vertical-align: middle !important;
   padding-top: 20%;
   font-size: 70px;
+  font-family: 'Josefin Slab', serif;
 }
 .center-block {
   margin-left: auto;
@@ -463,7 +473,7 @@ fieldset[disabled] .btn-primary.active {
   background-color: #3590F2;
 }
 .btn {
-  font-family: 'Gotham-Bold', sans-serif;
+  font-family: 'BebasNeue Bold', sans-serif;
   border: none;
   border-radius: 300px;
   font-weight: 700;
