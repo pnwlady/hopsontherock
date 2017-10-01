@@ -274,49 +274,49 @@ header .header-content .header-content-inner p {
 .sponsors {
   display: inline-block;
   float: none;
+  padding: none;
 }
-.sponsors.rosario {
-  width: 20%;
+@media (max-width: 1199px) {
+  .sponsors {
+    text-align: center;
+    align-items: center;
+    width: 90%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+.rosario {
+  width: 70%;
   padding-top: 40px;
 }
-.sponsors.chamber {
+.chamber {
   width: 70%;
   padding-top: 50px;
 }
-.sponsors.market {
+.market {
   padding-top: 30px;
 }
-.sponsors.doe {
+.doe {
+  width: 90%;
   padding-top: 20px;
 }
-.sponsors.oe {
+.oe {
   padding-top: 20px;
 }
-.sponsors.draft {
+.draft {
+  width: 70%;
   padding-top: 60px;
 }
-.sponsors.me {
+.me {
+  width: 70%;
   padding-bottom: 80px;
 }
-@media (max-width: 575px) {
-  .sponsors {
-    width: 100%;
-    padding-left: 20%;
-    padding-right: 40%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-}
 .padding1 {
-  padding-left: 90px;
+  padding-left: 140px;
   padding-bottom: 50px;
   padding-top: 40px;
-}
-.padding2 {
-  padding-left: 150px;
-  padding-bottom: 50px;
-  padding-right: 40px;
-  border: 20px;
 }
 .buffer {
   border-left: 50px;
