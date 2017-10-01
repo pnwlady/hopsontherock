@@ -37,7 +37,7 @@ html,
 body {
   height: 100%;
   width: 100%;
-  font-family: 'JosefinSans-Regular', serif;
+  font-family: 'GothamBoldRegular', sans-serif;
 }
 hr {
   border-color: #1E83C3;
@@ -58,20 +58,21 @@ a:focus {
   color: #176597;
 }
 h1 {
-  font-size: 40px;
+  font-size: 44px;
   font-family: 'Josefin Slab', serif;
 }
 h2 {
+  font-size: 30px;
   font-family: 'Josefin Slab', serif;
 }
 h3 {
-  font-family: 'GothamBookRegular', sans-serif;
+  font-family: 'Josefin Slab', serif;
 }
 h4 {
-  font-family: 'JosefinSans-Regular', serif;
+  font-family: 'Josefin Slab', serif;
 }
 h5 {
-  font-family: 'JosefinSans-Regular', serif;
+  font-family: 'Josefin Slab', serif;
 }
 h6 {
   font-family: 'JosefinSans-Regular', serif;
@@ -80,7 +81,7 @@ p {
   font-size: 20px;
   line-height: 1.5;
   margin-bottom: 20px;
-  font-family: 'JosefinSans-Regular', serif;
+  font-family: 'GothamBoldRegular', sans-serif;
 }
 .bg-primary {
   background-color: #1E83C3;
@@ -108,14 +109,14 @@ aside {
   background-color: #FFC300;
   opacity: .90;
   border-color: rgba(34, 34, 34, 0.05);
-  font-family: 'BebasNeue Bold', sans-serif;
+  font-family: 'GothamBoldRegular', sans-serif;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
 }
 .navbar-default .navbar-header .navbar-brand {
   color: #1E83C3;
-  font-family: 'BebasNeue Bold', sans-serif;
+  font-family: 'GothamBoldRegular', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -125,7 +126,7 @@ aside {
 }
 .navbar-default .navbar-header .navbar-toggle {
   font-weight: 700;
-  font-size: 12px;
+  font-size: 14px;
   color: #222222;
   text-transform: uppercase;
 }
@@ -133,7 +134,7 @@ aside {
 .navbar-default .nav > li > a:focus {
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 13px;
+  font-size: 14px;
   color: #222222;
 }
 .navbar-default .nav > li > a:hover,
@@ -216,7 +217,6 @@ header .header-content .header-content-inner h1 {
   text-transform: uppercase;
   margin-top: 120px;
   margin-bottom: 0;
-  font-size: 30px;
 }
 header .header-content .header-content-inner hr {
   margin: 30px auto;
@@ -224,7 +224,6 @@ header .header-content .header-content-inner hr {
 header .header-content .header-content-inner p {
   font-weight: 300;
   color: rgba(0, 0, 255, 0.7);
-  font-size: 20px;
   width: auto;
   margin-top: 140px;
   margin-bottom: 50px;
@@ -273,10 +272,40 @@ header .header-content .header-content-inner p {
   bottom: 400px;
 }
 .sponsors {
-  align-items: center;
   display: inline-block;
-  vertical-align: middle;
   float: none;
+}
+.sponsors.rosario {
+  width: 20%;
+  padding-top: 40px;
+}
+.sponsors.chamber {
+  width: 70%;
+  padding-top: 50px;
+}
+.sponsors.market {
+  padding-top: 30px;
+}
+.sponsors.doe {
+  padding-top: 20px;
+}
+.sponsors.oe {
+  padding-top: 20px;
+}
+.sponsors.draft {
+  padding-top: 60px;
+}
+.sponsors.me {
+  padding-bottom: 80px;
+}
+@media (max-width: 575px) {
+  .sponsors {
+    width: 100%;
+    padding-left: 20%;
+    padding-right: 40%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
 .padding1 {
   padding-left: 90px;
@@ -318,53 +347,11 @@ header .header-content .header-content-inner p {
   max-width: 650px;
   margin: 0 auto;
 }
-.portfolio-box .portfolio-box-caption {
-  color: #3590F2;
-  opacity: 0;
-  display: block;
-  background: rgba(30, 131, 195, 0.9);
-  position: absolute;
-  bottom: 0;
-  text-align: center;
-  width: 100%;
-  height: 100%;
-  -webkit-transition: all 0.35s;
-  -moz-transition: all 0.35s;
-  transition: all 0.35s;
-}
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
-  width: 100%;
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-  padding: 0 15px;
-}
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 14px;
-}
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-  font-size: 18px;
-}
-.portfolio-box:hover .portfolio-box-caption {
+:hover .portfolio-box-caption {
   opacity: 1;
 }
-.portfolio-box:focus {
+:focus {
   outline: none;
-}
-@media (min-width: 768px) {
-  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-    font-size: 16px;
-  }
-  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    font-size: 22px;
-  }
 }
 .call-to-action h2 {
   margin: 0 auto 20px;
@@ -473,7 +460,7 @@ fieldset[disabled] .btn-primary.active {
   background-color: #3590F2;
 }
 .btn {
-  font-family: 'BebasNeue Bold', sans-serif;
+  font-family: 'GothamBoldRegular', sans-serif;
   border: none;
   border-radius: 300px;
   font-weight: 700;
