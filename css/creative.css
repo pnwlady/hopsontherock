@@ -274,12 +274,10 @@ header .header-content .header-content-inner p {
 .sponsors {
   display: inline-block;
   float: none;
-  padding: none;
+  padding: 10px;
 }
 @media (max-width: 1199px) {
   .sponsors {
-    text-align: center;
-    align-items: center;
     width: 90%;
     padding-left: 20%;
     padding-right: 20%;
@@ -287,36 +285,131 @@ header .header-content .header-content-inner p {
     padding-bottom: 20px;
   }
 }
-.rosario {
-  width: 70%;
-  padding-top: 40px;
+@media (max-width: 768px) {
+  .sponsors {
+    width: 70%;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+  }
 }
-.chamber {
-  width: 70%;
-  padding-top: 50px;
+@media (min-width: 769px) {
+  .rosario {
+    width: 70%;
+    padding-top: 40px;
+  }
 }
-.market {
-  padding-top: 30px;
+@media (max-width: 768px) {
+  .rosario {
+    width: 70%;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+  }
 }
-.doe {
-  width: 90%;
-  padding-top: 20px;
+@media (min-width: 769px) {
+  .chamber {
+    width: 70%;
+    padding-top: 50px;
+  }
 }
-.oe {
-  padding-top: 20px;
+@media (max-width: 768px) {
+  .chamber {
+    width: 70%;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+  }
 }
-.draft {
-  width: 70%;
-  padding-top: 60px;
+@media (min-width: 769px) {
+  .hop {
+    width: 100%;
+  }
 }
-.me {
-  width: 70%;
-  padding-bottom: 80px;
+@media (max-width: 768px) {
+  .hop {
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+  }
+}
+@media (min-width: 769px) {
+  .market {
+    padding-top: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .market {
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+  }
+}
+@media (min-width: 769px) {
+  .doe {
+    width: 90%;
+    padding-top: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .doe {
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+  }
+}
+@media (min-width: 769px) {
+  .oe {
+    padding-top: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .oe {
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+  }
+}
+@media (min-width: 769px) {
+  .draft {
+    width: 100%;
+    padding-top: 60px;
+  }
+}
+@media (max-width: 768px) {
+  .draft {
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+  }
+}
+@media (min-width: 769px) {
+  .me {
+    width: 70%;
+    padding-bottom: 80px;
+  }
+}
+@media (max-width: 768px) {
+  .me {
+    width: 70%;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+  }
 }
 .padding1 {
-  padding-left: 140px;
-  padding-bottom: 50px;
-  padding-top: 40px;
+  text-align: center;
+  vertical-align: middle;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 .buffer {
   border-left: 50px;
