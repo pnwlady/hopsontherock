@@ -388,12 +388,13 @@ header .header-content .hopsHead {
 }
 @media (min-width: 769px) {
   .rays {
+    width: 100%;
     padding-top: 20px;
   }
 }
 @media (max-width: 1199px) {
   .rays {
-    width: 100%;
+    width: 90%;
   }
 }
 @media (max-width: 768px) {
